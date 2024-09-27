@@ -1,0 +1,163 @@
+.age-crd{
+    margin-left: 20px;
+    margin-top: 148px;
+    height: 700px;
+}
+.bgclr{
+  background-color:#2E236C;
+  height:850px;
+  position: sticky;
+}
+.age-cal-img{
+    margin-left:2px;
+    height: 150px;
+    width:435px;
+}
+.age-cal{
+    padding-left: 130px;
+
+}
+.content-age{
+    margin-top: -25px;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+}
+.cal{
+    padding-left: 160px;
+
+}
+.content-cal{
+    margin-top: -25px;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+}
+.cde-btn{
+    margin-top: 75px;
+}
+.cal-crd{
+    margin-left: 20px;
+    margin-top: 80px;
+    height: 700px;
+}
+.crm{
+    padding-left: 190px;
+}
+.crm-crd{
+    margin-left: 20px;
+    margin-top: 148px;
+    height: 700px;
+}
+.crm-btn{
+    margin-top: 50px;
+}
+.content-crm{
+    margin-top: -30px;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+}
+.age-btn{
+    margin-top: 135px;
+}
+.prt-txt{
+    animation: hideAndShow 4s infinite;
+    color: #FF2E63;
+    margin-left: 190px;
+    padding-top: 20px;
+    
+}
+@media (max-width: 600px) {
+    .age-crd {
+        margin-left: 10px; /* Decrease left margin */
+        margin-top: 80px; /* Adjust top margin */
+        height: auto; /* Auto height */
+        width: 90%; /* Full width */
+    }
+    
+    .bgclr {
+        height: auto; /* Adjust height */
+        background-color:#2E236C;
+        position: sticky; /* Keep sticky positioning */
+        padding-bottom: 20px; /* Add padding to prevent content overlap */
+    }
+    
+    .age-cal-img {
+        margin-left: 0; /* Center the image */
+        height: auto; /* Auto height */
+        width: 100%; /* Full width */
+    }
+    
+    .age-cal {
+        padding-left: 0; /* Remove left padding */
+        text-align: center; /* Center align text */
+    }
+    
+    .content-age {
+        margin-top: 20px; /* Adjust top margin */
+        font-size: medium; /* Reduce font size */
+        text-align: center; /* Center text */
+    }
+    
+    .cal {
+        padding-left: 0; /* Remove padding */
+        text-align: center; /* Center align */
+    }
+    
+    .content-cal {
+        margin-top: 10px; /* Adjust top margin */
+        font-size: medium; /* Reduce font size */
+        text-align: center; /* Center text */
+    }
+    
+    .cde-btn {
+        margin-top: 30px; /* Adjust top margin */
+        text-align: center; /* Center the button */
+    }
+    
+    .cal-crd {
+        margin-left: 10px; /* Decrease left margin */
+        margin-top: 700px; /* Adjust top margin */
+        height: auto; /* Auto height */
+        width: 90%; /* Full width */
+    }
+    
+    .crm {
+        padding-left: 0; /* Remove padding */
+        text-align: center; /* Center align */
+    }
+    
+    .crm-crd {
+        margin-left: 10px; /* Decrease left margin */
+        margin-top: 30px; /* Adjust top margin */
+        height: auto; /* Auto height */
+        width: 90%; /* Full width */
+    }
+    
+    .crm-btn {
+        margin-top: 30px; /* Adjust top margin */
+        text-align: center; /* Center the button */
+    }
+    
+    .content-crm {
+        margin-top: 20px; /* Adjust top margin */
+        font-size: medium; /* Reduce font size */
+        text-align: center; /* Center text */
+    }
+    
+    .age-btn {
+        margin-top: 30px; /* Adjust top margin */
+        text-align: center; /* Center the button */
+    }
+    
+    .prt-txt {
+        margin-top: -720px;
+        margin-left: 30px;
+        font-size: large; /* Decrease font size */
+        text-align: center; /* Center text */
+    }
+}

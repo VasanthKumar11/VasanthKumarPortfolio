@@ -1,0 +1,45 @@
+.formcntrl {
+    margin-bottom: 50px;
+}
+
+.bgimg {
+    background-image: url(../Images/Contact-bg.png);
+    margin-left: -120px;
+    /* margin-right: -10px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    width: 211vh;
+    position: fixed;
+}
+.Valid{
+    margin-top: 125px;
+    background-color: #C0C78C;
+    border-radius: 25px;
+}
+@media (max-width: 600px) {
+    .formcntrl {
+        margin-bottom: 20px; /* Reduce bottom margin */
+    }
+
+    .bgimg {
+        background-image: url(../Images/Contact-bg.png); /* Maintain the background image */
+        margin-left: -12px; /* Remove negative margin */
+        width: 100%; /* Set to full width */
+        height: 120%; /* Adjust height */
+        background-size: cover; /* Maintain cover size */
+        position: fixed; /* Change from fixed to relative */
+        padding-top: 20px; /* Add padding to prevent overlap */
+    }
+
+    .Valid {
+        margin-top: 50px; /* Reduce top margin */
+        width: 90%; /* Full width */
+        margin-left: 5%; /* Center the container */
+        height: auto; /* Adjust height */
+        padding: 10px; /* Add padding for spacing */
+        border-radius: 15px; /* Adjust border radius */
+        font-size: small; /* Reduce font size */
+    }
+}

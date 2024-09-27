@@ -1,0 +1,400 @@
+.bgndclr {
+    background-color: #4793AF;
+    margin-left: 0px;
+    height: 1560px;
+    position: sticky;
+}
+
+.content {
+    margin-top: 300px;
+    margin-left: 50px;
+    margin-bottom: 150px;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+
+}
+
+.bgclr1 {
+   
+    margin-left: -120px;
+    height: 100vh;
+    width: 70vh;
+
+}
+
+.bgclr2 {
+
+    width: 60vh;
+}
+
+.bgclr3 {
+    margin-right: -150px !important;
+    height: 100vh;
+    width: 84vh;
+}
+
+.sns {
+    margin-top: 188px;
+    margin-left: 185px;
+    height: 250px;
+    width: 450px;
+    padding-left: 80px;
+    padding-top: 65px;
+    border-radius: 25px;
+    color: #31363F;
+    font-weight: 500;
+    box-shadow: #31363F 0px 10px 10px 0px;
+}
+
+.sri {
+    margin-top: 185px;
+    margin-left: 160px;
+    height: 250px;
+    width: 450px;
+    padding-left: 60px;
+    padding-top: 0px;
+    border-radius: 25px;
+    color: #31363F;
+    font-weight: 500;
+    box-shadow: #31363F 0px 10px 10px 0px;
+
+}
+
+.pr {
+    margin-top: 185px;
+    margin-left: 200px;
+    height: 250px;
+    width: 430px;
+    padding-left: 0px;
+    padding-top: 65px;
+    border-radius: 25px;
+    color: #31363F;
+    font-weight: 500;
+    box-shadow: #31363F 0px 10px 10px 0px;
+
+
+
+}
+
+.imgsl {
+    height: 210px;
+    width: 400px;
+    margin-top: -65px;
+    border-radius: 10px;
+}
+
+.sclnme {
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.sclnme1{
+    padding-left: 150px;
+}
+.sri1 {
+    height: 210px;
+    width: 420px;
+    margin-top: -1px;
+    border-radius: 10px;
+    margin-left: -60px;
+
+}
+
+.snseg1 {
+    height: 210px;
+    width: 420px;
+    margin-top: -60px;
+    border-radius: 10px;
+    margin-left: -80px;
+}
+
+.snseg2 {
+   padding-left: 35px;
+    margin-top: 20px;
+}
+.snseg3{
+    padding-left: 50px;
+}
+@keyframes hideAndShow {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    50% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.edu-txt {
+    animation: hideAndShow 4s infinite;
+    padding-left: 670px;
+    padding-top: 40px;
+    color:#FF2E63 ;
+}
+
+.abo-txt {
+    animation: hideAndShow 4s infinite;
+    padding-left: 668px;
+    padding-top: 40px;
+    color: #FF2E63;
+}
+.skil-txt{
+    animation: hideAndShow 4s infinite;
+    padding-left:730px ;
+    margin-top: -180px;
+    color: #FF2E63;
+}
+
+.about-us-container {
+    overflow: hidden;
+    padding: 20px;
+}
+
+.skl-crd {
+    height: 100px;
+    width: 1100px;
+    margin-left: 300px;
+    box-shadow: #31363F 0px 10px 10px 0px;
+    border-radius: 5px;
+    margin-top: -30px;
+    overflow: hidden;
+    position: relative;
+    padding: 0; 
+}
+
+.skill-card {
+    display: inline-block;
+    height: 100px;
+    margin: 0;    
+    padding: 0;
+    vertical-align: middle;
+    margin-top: 15px;
+}
+
+.inner-skill {
+    margin-top: 15px;
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+    object-fit: cover;
+    margin-bottom: 0;
+    
+}
+
+.h6 {
+    
+    text-align: center;
+    margin: 0;
+    padding-left: 3px;
+    line-height: 100px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.content {
+    margin-top: 300px;
+    margin-left: 50px;
+    margin-bottom: 150px;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+}
+
+
+flip-card {
+    background-color: transparent;
+    perspective: 1000px;
+    margin: 10px 0;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    z-index: 2;
+}
+
+.flip-card-back {
+    transform: rotateY(180deg);
+    z-index: 1;
+}
+
+.Dip-txt {
+    padding-top: 80px;
+   padding-left: 20px;
+}
+.Dip-txt1 {
+    padding-left: 75px;
+}
+.Dip-txt2 {
+     padding-left: 120px;
+}
+
+.img10 {
+    height: 250px;
+    margin-left: 150px;
+    margin-top: 250px;
+    filter: drop-shadow(#31363F 1px 1px 10px);
+}
+@media (max-width: 600px) {
+    .bgndclr {
+        height: auto; /* Adjust height for mobile */
+        margin-left: 0;
+        padding-bottom: 20px; /* Add bottom padding */
+        position: sticky; /* Change from sticky to relative */
+    }
+    .content {
+        margin-top: 150px; /* Reduce top margin */
+        margin-left: 20px; /* Adjust left margin */
+        margin-right: 20px; /* Add right margin */
+        font-size: medium; /* Decrease font size for readability */
+    }
+    .bgclr1 {
+        margin-left: 0; /* Remove negative margin */
+        height: auto; /* Auto height */
+        width: 100%; /* Full width on small screens */
+    }
+    .sns {
+        margin-top: -10px;
+        margin-left: 50px; /* Set left margin */
+        margin-right: 20px; /* Set right margin */
+        width: 250px; /* Responsive width */
+        height: 150px; /* Adjust height */
+        padding: 20px; /* Adjust padding */
+        box-shadow: none; /* Remove shadow */
+    }
+    .sri{
+        margin-top: 150px;
+        margin-left: 50px; /* Set left margin */
+        margin-right: 20px; /* Set right margin */
+        width: 250px; /* Responsive width */
+        height: 150px; ; /* Adjust height */
+        padding: 20px; /* Adjust padding */
+        box-shadow: none; /* Remove shadow */
+    }
+    .pr{
+        margin-top: 320px;
+        margin-left: 50px; /* Set left margin */
+        margin-right: 20px; /* Set right margin */
+        width: 250px; /* Responsive width */
+        height: 150px; /* Adjust height */
+        padding: 20px; /* Adjust padding */
+        box-shadow: none; /* Remove shadow */
+    }
+    .imgsl {
+        width: 100%; /* Full width */
+        height: 90%; /* Adjust height */
+        margin-top: -10px; /* Remove negative margin */
+        border-radius: 5px; /* Reduce border radius */
+    }
+    .sclnme {
+        padding-top:5px;
+        padding-left: 0; /* No padding */
+        text-align: center; /* Center text */
+       height: 25px;
+       width: 180px;
+    }
+    .sclnme1 {
+        padding-top:35px;
+        padding-left: 30px; /* Adjust padding */
+        text-align: center; /* Center text */
+    }
+    .sri1 {
+        height: auto; /* Auto height */
+        width: 100%; /* Full width */
+        margin-top: -10px;
+        margin-left: 0; /* Remove negative margin */
+    }
+    .snseg1 {
+        margin-top: 5px;
+        width: 100%; /* Full width */
+        margin-left: 0; /* Remove negative margin */
+        height: 95%; /* Adjust height */
+    }
+    .snseg2 {
+        margin-top: -20px;
+        padding-left: 0.2px; /* No padding */
+        text-align: center; /* Center text */
+        height: 15px;
+        width: 200px;
+    }
+    .snseg3 {
+        padding-left: 10px; /* Adjust padding */
+    }
+    .edu-txt, .abo-txt  {
+        padding-left: 0; /* No padding */
+        text-align: center; /* Center align text */
+        font-size: small; /* Adjust font size */
+    }
+    .skil-txt {
+        padding-left: 0; /* No padding */
+        text-align: center; /* Center align text */
+        font-size: small; /* Adjust font size */
+        margin-top: 80px;
+    }
+    .about-us-container {
+        padding: 10px; /* Reduce padding */
+    }
+    .skl-crd {
+        width: 90%; /* Full width */
+        margin-left: 5%; /* Center the card */
+        height: auto; /* Auto height */
+        box-shadow: none; /* Remove shadow */
+        margin-top: 20px; /* Adjust top margin */
+    }
+    .skill-card {
+        margin-top: 10px; /* Reduce margin */
+    }
+    .inner-skill {
+        height: 50px; /* Smaller height */
+        width: 50px; /* Smaller width */
+        margin: 5px; /* Adjust margin */
+    }
+
+    .flip-card {
+        margin: 5px 0; /* Adjust margins */
+    }
+    .flip-card-inner {
+        width: 100%; /* Full width */
+        height: auto; /* Auto height */
+    }
+    .Dip-txt, .Dip-txt1, .Dip-txt2 {
+        padding-top:5px;
+        padding-left: 0; /* No padding */
+        text-align: center; /* Center text */
+       height: 25px;
+       width: 180px;
+    }
+    .img10 {
+        height: 150px; /* Reduce height */
+        width: auto; /* Auto width */
+        margin-left: 0; /* Remove left margin */
+        margin-top: 20px; /* Adjust top margin */
+
+    }
+}
