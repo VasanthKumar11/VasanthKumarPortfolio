@@ -1,0 +1,179 @@
+.a1{
+   /* background-color: #31363F; */
+  height: 50px;
+  padding-left: 290px;
+  margin-right: -12px;
+}
+.a2{
+  padding-left:1150px;
+  
+}
+.a3{
+  padding-left: 10px;
+ 
+}
+.a4{
+  padding-left: 5px;
+
+}
+
+.a5{
+  margin-top: 240px;
+  margin-bottom: 300px;
+  /* background-color:#FF6666;
+  color: white; */
+}
+/* .a6{
+  background-color:#FF6666;
+}
+.a7{
+  background-color:#FF6666 ;
+} */
+.a8{
+  /* background-color: #FF6666; */
+  margin-top: 100px;
+  margin-left: 100px;
+  /* padding-left: 150px; */
+ 
+  height:80%;
+  width: 100%;
+
+  
+}
+/* .a9{
+  background-color: #FF6666;
+} */
+/* .vid1{
+  width: 50%;
+  height: 70%;
+} */
+
+.bgvido{
+  background-image:url("../src/Images/New\ gif.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+  width: 100%;
+  position: fixed;
+  
+
+}
+@media (max-width: 992px) {
+  .a1 {
+    padding-left: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .a2, .a3, .a4 {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .a8 {
+    margin-top: 50px;
+    margin-left: 0;
+    height: 70%;
+    width: 80%;
+  }
+
+  .bgvido {
+    height: auto;
+  }
+}
+.cotnt{
+  color:#FFEADD ;
+  margin-top: 200px;
+  margin-left:80px ;
+}
+.wrd{
+  color:#FFEADD ;
+  margin-left: 80px;
+}
+/* style={{color:"#FFEADD",marginTop:"200px",marginLeft:"80px"}} */
+/* style={{color:"#FFEADD",marginLeft:"80px"}} */
+@media (max-width: 768px) {
+  .cotnt{
+    color:#FFEADD ;
+    margin-top: 20px;
+    margin-left:40px ;
+  }
+  .wrd{
+    color:#FFEADD ;
+    margin-left:40px ;
+  }
+  .a1 {
+    padding-left: 0;
+    margin-right: 0;
+    text-align: center;
+    height: auto;
+  }
+
+  .a2, .a3, .a4 {
+    
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .a8 {
+    margin-top: 20px;
+    margin-left: 0;
+    height: 60%;
+    width: 70%;
+  }
+
+  .h1 {
+    font-size: 24px;
+    margin-top: 50px;
+    margin-left: 0;
+  }
+
+  .h3, h5 {
+    font-size: 18px;
+    margin-left: 0;
+  }
+
+  .bgvido {
+    height: auto;
+    position: fixed;
+  }
+}
+
+@media (max-width: 576px) {
+  .a1 {
+    padding-left: 0;
+    margin-right: 0;
+    text-align: center;
+    height: auto;
+  }
+
+  .a2, .a3, .a4 {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .a8 {
+    margin-top: 20px;
+    margin-left: 0;
+    height: 50%;
+    width: 100%;
+  }
+
+  .h1 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .h3, h5 {
+    font-size: 16px;
+    margin-left: 0;
+  }
+
+  .bgvido {
+    height: auto;
+  }
+}
